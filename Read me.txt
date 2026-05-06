@@ -1,0 +1,55 @@
+Raspberry Pi 3 Model B+ Setup Description
+
+Step 1. Raspberry Pi OS Installation
+
+* Download Raspberry Pi Imager software.
+* Install Raspberry Pi OS into the microSD card using the imager tool.
+
+Step 2. Raspberry Pi Boot Setup
+
+* Insert the microSD card into Raspberry Pi 3 Model B+.
+* Connect HDMI display, keyboard, mouse, and power supply.
+* Boot the Raspberry Pi system.
+
+Step 3. Initial Configuration
+
+* Configure language, Wi-Fi, and system settings.
+* Enable SSH, UART, and camera interface from Raspberry Pi Configuration.
+
+Step 4. Software Installation
+
+* Install Python3 and required dependencies.
+* Install OpenCV library for computer vision processing.
+* Install TensorFlow Lite for AI-based object detection.
+* Install additional Python libraries such as NumPy and PySerial.
+
+Step 5. Webcam Integration
+
+* Connect the USB webcam to Raspberry Pi.
+* Capture real-time video frames using OpenCV.
+* Verify camera operation and frame processing.
+
+Step 6. ESP32 Communication Setup
+
+* Connect Raspberry Pi TX pin to ESP32 RX pin.
+* Connect Raspberry Pi RX pin to ESP32 TX pin.
+* Connect common GND between Raspberry Pi and ESP32.
+* Enable UART serial communication.
+
+Step 7. AI Object Detection
+
+* Load TensorFlow Lite model into Raspberry Pi.
+* Process live webcam frames using OpenCV.
+* Detect and classify objects in real time.
+
+Step 8. Robotic Control
+
+* Send object detection data from Raspberry Pi to ESP32.
+* ESP32 controls the L298N motor driver and 4DOF robotic arm.
+* Perform autonomous navigation and pick-and-place operations.
+
+Step 9. System Testing
+
+* Test real-time object detection performance.
+* Verify robotic arm movement and chassis control.
+* Validate complete autonomous operation of the robot. 
