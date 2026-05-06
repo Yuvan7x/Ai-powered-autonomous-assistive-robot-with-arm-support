@@ -1,1 +1,0 @@
-Note: this code is only for esp32 wroom to control 4-dof robo arm & 4-wd car
